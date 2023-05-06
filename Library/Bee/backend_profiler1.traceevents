@@ -1,0 +1,535 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1683320270144292, "dur":40853, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270185149, "dur":12169, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1683320270197343, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1683320270197366, "dur":602, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1683320270198006, "dur":804, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270198810, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270824455, "dur":366, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270824821, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270824846, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270824851, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270824864, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270824867, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270824874, "dur":93, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270824967, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270824975, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270824979, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270824986, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270824988, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270824996, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270824998, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270825009, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270825011, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270825015, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270825017, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270825025, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270825027, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270825033, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270825035, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270825043, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270825045, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270825052, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270825075, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270825114, "dur":98355, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1683320270198410, "dur":445, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683320270198855, "dur":7181, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683320270206036, "dur":1476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1683320270207518, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683320270211455, "dur":4069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1683320270215636, "dur":1263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1683320270216903, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683320270219785, "dur":1658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1683320270221512, "dur":794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy.exe" }}
+,{ "pid":12345, "tid":1, "ts":1683320270222311, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683320270222320, "dur":2100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy.exe" }}
+,{ "pid":12345, "tid":1, "ts":1683320270224485, "dur":1046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270225536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683320270225813, "dur":2411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270228309, "dur":1109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270229427, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683320270229439, "dur":1792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270231301, "dur":2399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270233704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683320270233710, "dur":7867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270242497, "dur":6427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270248929, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683320270248937, "dur":6689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270255699, "dur":709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270256411, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683320270256417, "dur":3643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270260140, "dur":841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270260985, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683320270261010, "dur":4007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270265083, "dur":600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270265686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683320270265693, "dur":2512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270268277, "dur":3041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270271322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683320270271329, "dur":4056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270275498, "dur":1203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270276704, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683320270276711, "dur":4162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270281347, "dur":1086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270282436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683320270282441, "dur":9483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270292000, "dur":3490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270295494, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683320270295501, "dur":3658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270299259, "dur":2056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270301318, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683320270301326, "dur":3870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270305411, "dur":3268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270308684, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683320270308695, "dur":3443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683320270312220, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683320270312300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683320270312307, "dur":40947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683320270353315, "dur":471148, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683320270198318, "dur":512, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683320270198834, "dur":7126, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683320270205974, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1683320270206060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683320270209039, "dur":1461, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1683320270210508, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1683320270210604, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683320270211250, "dur":5033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1683320270216285, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1683320270216427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683320270216434, "dur":30522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1683320270247048, "dur":1478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683320270248532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683320270248542, "dur":7778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683320270256476, "dur":3242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683320270259725, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683320270259736, "dur":7071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683320270267555, "dur":3497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683320270271056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683320270271067, "dur":3804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683320270275077, "dur":1612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683320270276692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683320270276698, "dur":3405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683320270280172, "dur":2561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683320270282737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683320270282744, "dur":5015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683320270287834, "dur":1918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683320270289756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683320270289764, "dur":4705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683320270294572, "dur":729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683320270295305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683320270295311, "dur":2176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683320270297564, "dur":1031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683320270298599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683320270298606, "dur":4909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683320270303616, "dur":4717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683320270308338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683320270308346, "dur":10108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683320270318536, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1683320270318617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683320270318627, "dur":6512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1683320270325262, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1683320270325341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683320270325347, "dur":4607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1683320270330044, "dur":494435, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683320270198364, "dur":478, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683320270198842, "dur":7254, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683320270206097, "dur":1550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1683320270207651, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683320270211122, "dur":4396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1683320270215618, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1683320270215845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683320270219783, "dur":12309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1683320270232167, "dur":2253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683320270234424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683320270234431, "dur":3740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683320270238319, "dur":1878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683320270240201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683320270240208, "dur":12640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683320270252933, "dur":2582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683320270255518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683320270255525, "dur":7911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683320270263632, "dur":4432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683320270268068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683320270268075, "dur":4887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683320270273043, "dur":3580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683320270276657, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683320270276664, "dur":2664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683320270279401, "dur":644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683320270280048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683320270280054, "dur":5108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683320270285230, "dur":479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683320270285713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683320270285720, "dur":2495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683320270288291, "dur":4034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683320270292330, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683320270292344, "dur":4470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683320270296881, "dur":676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683320270297560, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683320270297568, "dur":2656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683320270300364, "dur":11182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683320270311551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683320270311560, "dur":11084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683320270322732, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1683320270322814, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683320270322828, "dur":6836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1683320270329734, "dur":494728, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683320270198450, "dur":454, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683320270198905, "dur":7057, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683320270205974, "dur":1554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1683320270207531, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683320270211170, "dur":4146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1683320270215379, "dur":962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1683320270216344, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683320270219799, "dur":4135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1683320270224064, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1683320270224413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683320270225139, "dur":16246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1683320270241454, "dur":1415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270242874, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683320270242883, "dur":10746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270253820, "dur":659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270254482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683320270254489, "dur":2942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270257493, "dur":552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270258049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683320270258058, "dur":4054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270262191, "dur":1244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270263439, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683320270263564, "dur":2493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270266118, "dur":1727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270267848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683320270267855, "dur":2234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270270160, "dur":1338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270271502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683320270271508, "dur":5244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270276844, "dur":599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270277446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683320270277452, "dur":3375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270280897, "dur":738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270281638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683320270281645, "dur":3761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270285500, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270285838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683320270285844, "dur":2341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270288251, "dur":4304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270292558, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683320270292597, "dur":4881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270297551, "dur":1051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270298605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683320270298611, "dur":2929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270301744, "dur":734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270302482, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683320270302494, "dur":2706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270305269, "dur":1821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270307094, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683320270307111, "dur":4953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683320270312204, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1683320270312284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683320270312291, "dur":14668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1683320270327069, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1683320270327452, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683320270327461, "dur":2499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1683320270330055, "dur":494421, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683320270198520, "dur":398, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683320270198918, "dur":7048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683320270205974, "dur":1543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1683320270207520, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683320270211389, "dur":3846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1683320270215305, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1683320270215476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683320270219931, "dur":11064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1683320270231078, "dur":3495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683320270234576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683320270234582, "dur":3183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683320270237822, "dur":813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683320270238639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683320270238649, "dur":2765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683320270241492, "dur":2648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683320270244146, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683320270244156, "dur":10032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683320270254251, "dur":961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683320270255216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683320270255223, "dur":2836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683320270258205, "dur":657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683320270258865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683320270258871, "dur":5152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683320270264085, "dur":1730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683320270265819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683320270265825, "dur":1679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683320270267594, "dur":2942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683320270270541, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683320270270556, "dur":2655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683320270273290, "dur":5566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683320270278859, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683320270278868, "dur":7221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683320270286233, "dur":2690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683320270288927, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683320270288937, "dur":3615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683320270292629, "dur":2637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683320270295271, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683320270295285, "dur":2790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683320270298176, "dur":812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683320270298992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683320270298998, "dur":2990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683320270302056, "dur":4646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683320270306705, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683320270306713, "dur":5062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683320270311863, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1683320270311958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683320270312109, "dur":4498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1683320270316684, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1683320270316887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683320270316895, "dur":3061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1683320270320118, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1683320270320241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683320270320249, "dur":8046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1683320270328369, "dur":496082, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683320270198589, "dur":341, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683320270198931, "dur":7046, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683320270205978, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1683320270206193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683320270211439, "dur":4573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1683320270216066, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1683320270216290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683320270219775, "dur":12825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1683320270232670, "dur":2069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683320270234743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683320270234748, "dur":5230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683320270240045, "dur":946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683320270240995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683320270241001, "dur":12975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683320270254049, "dur":678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683320270254731, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683320270254737, "dur":5773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683320270260715, "dur":1884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683320270262604, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683320270262614, "dur":3081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683320270265759, "dur":528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683320270266290, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683320270266295, "dur":4332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683320270270711, "dur":5339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683320270276055, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683320270276066, "dur":3091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683320270279227, "dur":1064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683320270280295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683320270280301, "dur":2785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683320270283159, "dur":741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683320270283904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683320270283912, "dur":12430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683320270296420, "dur":3347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683320270299771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683320270299777, "dur":4706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683320270304569, "dur":19656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683320270324231, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683320270324243, "dur":11132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683320270335457, "dur":489031, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683320270198634, "dur":307, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683320270198941, "dur":7050, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683320270205992, "dur":512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1683320270206508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683320270214142, "dur":12859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1683320270227089, "dur":1120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683320270228214, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683320270228394, "dur":3078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683320270231539, "dur":2670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683320270234213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683320270234219, "dur":3741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683320270238075, "dur":2207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683320270240285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683320270240291, "dur":14137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683320270254549, "dur":917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683320270255469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683320270255474, "dur":3070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683320270258604, "dur":490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683320270259098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683320270259104, "dur":6476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683320270265697, "dur":1455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683320270267157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683320270267165, "dur":1280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683320270268514, "dur":2933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683320270271451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683320270271457, "dur":3745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683320270275290, "dur":868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683320270276161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683320270276166, "dur":2070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683320270278334, "dur":1436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683320270279773, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683320270279781, "dur":3045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683320270283062, "dur":2481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683320270285546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683320270285554, "dur":10028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683320270295871, "dur":2340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683320270298238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683320270298245, "dur":2577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683320270300892, "dur":6593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683320270307489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683320270307496, "dur":7165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683320270314767, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1683320270314862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683320270314868, "dur":4419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1683320270319363, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1683320270319430, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683320270319439, "dur":3372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1683320270322906, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1683320270322986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683320270322991, "dur":6823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1683320270329887, "dur":494571, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683320270198676, "dur":275, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683320270198952, "dur":7172, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683320270206125, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1683320270206288, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683320270212642, "dur":12111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1683320270224837, "dur":936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683320270225777, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683320270226872, "dur":4230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683320270231173, "dur":2397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683320270233574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683320270233582, "dur":3776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683320270237422, "dur":2007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683320270239434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683320270239443, "dur":2644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683320270242350, "dur":1954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683320270244308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683320270244315, "dur":12728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683320270257116, "dur":3214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683320270260334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683320270260344, "dur":6363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683320270268070, "dur":8031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683320270276105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683320270276112, "dur":3270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683320270279468, "dur":656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683320270280127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683320270280133, "dur":3446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683320270283687, "dur":2095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683320270285806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683320270285814, "dur":3736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683320270289702, "dur":634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683320270290339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683320270290346, "dur":3851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683320270294312, "dur":10047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683320270304363, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683320270304375, "dur":10854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683320270315328, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1683320270315611, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683320270315621, "dur":5253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1683320270320953, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1683320270321044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683320270321053, "dur":8217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1683320270329335, "dur":495114, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683320270198736, "dur":227, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683320270198963, "dur":7030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683320270205993, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1683320270206237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683320270212262, "dur":3851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1683320270216258, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1683320270216400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683320270216406, "dur":3075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1683320270219639, "dur":14905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1683320270234547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683320270234552, "dur":6230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1683320270240860, "dur":2809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683320270243690, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683320270243703, "dur":10196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683320270254027, "dur":2575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683320270256606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683320270256612, "dur":4765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683320270261448, "dur":1534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683320270262987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683320270262995, "dur":2804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683320270265864, "dur":2399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683320270268266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683320270268273, "dur":6827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683320270275180, "dur":1429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683320270276613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683320270276619, "dur":3270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683320270279956, "dur":876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683320270280835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683320270280870, "dur":4686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683320270285625, "dur":4345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683320270289974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683320270289982, "dur":5203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683320270295263, "dur":1403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683320270296671, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683320270296684, "dur":2374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683320270299128, "dur":1722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683320270300854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683320270300861, "dur":2835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683320270303978, "dur":2530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683320270306513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683320270306522, "dur":5908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683320270312547, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1683320270312627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683320270312635, "dur":15615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1683320270328494, "dur":495958, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683320270198798, "dur":175, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683320270198974, "dur":7007, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683320270205982, "dur":1670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1683320270207656, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683320270211349, "dur":6240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1683320270217678, "dur":82692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683320270300373, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683320270300493, "dur":9716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683320270310286, "dur":93425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683320270403719, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683320270404355, "dur":1997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683320270406426, "dur":418027, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683320270198923, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683320270198924, "dur":7040, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683320270205974, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1683320270206191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683320270211654, "dur":7807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1683320270219596, "dur":215815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683320270435417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683320270435426, "dur":388927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683320270824409, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":11, "ts":1683320270824413, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683320270198959, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683320270198959, "dur":7111, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683320270206072, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1683320270206469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683320270213104, "dur":3352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1683320270216522, "dur":11142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683320270227671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683320270228268, "dur":3561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683320270231915, "dur":2458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683320270234377, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683320270234382, "dur":2775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683320270237223, "dur":3406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683320270240632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683320270240639, "dur":12853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683320270253586, "dur":732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683320270254322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683320270254333, "dur":3079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683320270257480, "dur":1014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683320270258498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683320270258528, "dur":5469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683320270264077, "dur":1860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683320270265940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683320270265946, "dur":3560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683320270269575, "dur":1744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683320270271322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683320270271329, "dur":3878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683320270275344, "dur":1587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683320270276934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683320270276966, "dur":3144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683320270280180, "dur":2033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683320270282216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683320270282223, "dur":14903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683320270297190, "dur":2273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683320270299466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683320270299472, "dur":4713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683320270304259, "dur":1164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683320270305426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683320270305433, "dur":4562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683320270310068, "dur":587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683320270310659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683320270310668, "dur":3176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683320270313924, "dur":722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1683320270314653, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683320270314671, "dur":9945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1683320270324719, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Razer/Game/Buggy_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1683320270324807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683320270324816, "dur":9177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Razer/Game/Buggy_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1683320270334112, "dur":490365, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683320270976132, "dur":1864, "ph":"X", "name": "ProfilerWriteOutput" }
+,
